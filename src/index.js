@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {TopNav} from './components/topnav';
 import {FormLogoWidget} from './components/form_logo_widget';
-import {ControlledTabs} from './components/main_tab'
+import {MainTab} from './components/main_tab'
 // import {Tree} from './components/Tree'
 
 const treeStyle = {
@@ -32,7 +32,7 @@ class Parent extends React.Component{
 					<div class="col-9">
 						<FormLogoWidget />
 						<p></p>
-						<ControlledTabs />
+						<MainTab />
 					</div>
 				</div>
 			</div>

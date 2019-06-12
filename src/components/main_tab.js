@@ -4,7 +4,7 @@ import Tab from 'react-bootstrap/Tabs';
 import {OrderedProduct} from './ordered_product';
 import {OrderProduct} from './order_product';
 
-export class ControlledTabs extends React.Component {
+export class MainTab extends React.Component {
   constructor(props, context) {
     super(props, context);
     this.state = {
