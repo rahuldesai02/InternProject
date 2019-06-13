@@ -10,19 +10,19 @@ export class OrderedProduct extends React.Component
   {
     return(
 
-        <div class="card-columns">
-        <div class="card" style={{width: "14rem"}} >
-          <img src={SampleImage} className="card-img-top" alt="product image"/>
-          <div class="card-body">
-            <h5 class="card-title">Name : Product</h5>
-            <p class="card-text">Price : $</p>
+        <div className="card-columns">
+        <div className="card" style={{width: "14rem"}} >
+          <img src={SampleImage} className="card-img-top" alt="product"/>
+          <div className="card-body">
+            <h5 className="card-title">Name : Product</h5>
+            <p className="card-text">Price : $</p>
           </div>
         </div>
-        <div class="card" style={{width: "14rem"}} >
-          <img src={SampleImage} className="card-img-top" alt="product image"/>
-          <div class="card-body">
-            <h5 class="card-title">Name : Product</h5>
-            <p class="card-text">Price : $</p>
+        <div className="card" style={{width: "14rem"}} >
+          <img src={SampleImage} className="card-img-top" alt="product"/>
+          <div className="card-body">
+            <h5 className="card-title">Name : Product</h5>
+            <p className="card-text">Price : $</p>
           </div>
         </div>
     </div>

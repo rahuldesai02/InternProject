@@ -10,35 +10,35 @@ export class SelectProduct extends React.Component
   {
     return(
       <div>
-        <div class="card-columns">
-        <div class="card" style={{width: "14rem"}} >
+        <div className="card-columns">
+        <div className="card" style={{width: "14rem"}} >
 
           <div >
             <label id  = "img">
               <input id = "img" type = "checkbox"/>
-              <img src={SampleImage} className="card-img-top" alt="product image"/></label>
+              <img src={SampleImage} className="card-img-top" alt="product"/></label>
           </div>
 
-          <div class="card-body">
-            <h5 class="card-title">Name : Product</h5>
-            <p class="card-text">Price : $</p>
+          <div className="card-body">
+            <h5 className="card-title">Name : Product</h5>
+            <p className="card-text">Price : $</p>
           </div>
         </div>
-        <div class="card" style={{width: "14rem"}} >
+        <div className="card" style={{width: "14rem"}} >
           <div >
             <label id  = "img">
               <input id = "img" type = "checkbox"/>
-              <img src={SampleImage} className="card-img-top" alt="product image"/></label>
+              <img src={SampleImage} className="card-img-top" alt="product"/></label>
           </div>
 
-          <div class="card-body">
-            <h5 class="card-title">Name : Product</h5>
-            <p class="card-text">Price : $</p>
+          <div className="card-body">
+            <h5 className="card-title">Name : Product</h5>
+            <p className="card-text">Price : $</p>
           </div>
         </div>
     </div>
     <div style = {{float : "right"}}>
-      <a id  = "selected">Selected 0</a>
+      <a id = "selected">Selected 0</a>
       <button id = "cancel">Cancel</button>
       <button id = "continue">Continue</button>
     </div>

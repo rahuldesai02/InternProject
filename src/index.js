@@ -9,7 +9,7 @@ const treeStyle = {
 	marginLeft : "10px",
 	marginRight : "10px",
 	padding : "1px",
-	borderRight : "0.5px solid grey",
+	// borderRight : "0.5px solid grey",
 };
 
 class Parent extends React.Component{
@@ -19,8 +19,8 @@ class Parent extends React.Component{
 			<div>
 				<TopNav />
 				<hr/>
-				<div class="row">
-					<div class="col-2">
+				<div className="row">
+					<div className="col-2">
 						<div style = {treeStyle}>
 						Nostrud eu cupidatat de in legam eram hic constias, enim nam constias sed malis,
 						appellat id quae. Nisi non possumus, de elit esse a doctrina, ne summis
@@ -29,7 +29,7 @@ class Parent extends React.Component{
 						senserit irure mandaremus. E appellat reprehenderit.
 					</div>
 				</div>
-					<div class="col-9">
+					<div className="col-9">
 						<FormLogoWidget />
 						<p></p>
 						<MainTab />

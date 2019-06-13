@@ -6,15 +6,15 @@ export class FormLogoWidget extends React.Component{
   render()
   {
     return(
-      <div class="container">
-    <div class="row">
-      <div class="col">
+      <div className="container">
+    <div className="row">
+      <div className="col">
         <Form/>
       </div>
-      <div class="col">
-        <img src ={logo}  />
+      <div className="col">
+        <img src ={logo}  alt  = "Logo"/>
       </div>
-      <div  class="col">
+      <div  className="col">
         <h1>WIDGET</h1>
       </div>
     </div>

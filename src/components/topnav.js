@@ -12,7 +12,7 @@ export class TopNav extends React.Component {
     return (
       <div className = "container">
       <nav className="navbar navbar-light">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand">
           <img id = "logo" src={logo} width="60" height="60" className="d-inline-block align-top" alt="LOGO" />
         </a>
         <h2>TITLE</h2>
