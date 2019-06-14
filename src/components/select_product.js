@@ -1,44 +1,27 @@
 import React from 'react';
 // import Card from 'react-bootstrap/Card';
 // import CardColumns from 'react-bootstrap/Card';
-import SampleImage from '../images/DummyOrderedProduct.jpeg';
+import {Product} from './product';
 import '../css/select_product.css';
 
 export class SelectProduct extends React.Component
 {
+  constructor(props)
+  {
+    super(props);
+    this.state = {selected : 0};
+  }
+  handleChange()
+  {
+    // this.setState({selected : 1})
+  }
   render()
   {
     return(
       <div>
-        <div className="card-columns">
-        <div className="card" style={{width: "14rem"}} >
-
-          <div >
-            <label id  = "img">
-              <input id = "img" type = "checkbox"/>
-              <img src={SampleImage} className="card-img-top" alt="product"/></label>
-          </div>
-
-          <div className="card-body">
-            <h5 className="card-title">Name : Product</h5>
-            <p className="card-text">Price : $</p>
-          </div>
-        </div>
-        <div className="card" style={{width: "14rem"}} >
-          <div >
-            <label id  = "img">
-              <input id = "img" type = "checkbox"/>
-              <img src={SampleImage} className="card-img-top" alt="product"/></label>
-          </div>
-
-          <div className="card-body">
-            <h5 className="card-title">Name : Product</h5>
-            <p className="card-text">Price : $</p>
-          </div>
-        </div>
-    </div>
+      <Product onchange = {this.handleChange}/>
     <div style = {{float : "right"}}>
-      <a id = "selected">Selected 0</a>
+      <a id = "selected">Selected {this.state.selected}</a>
       <button id = "cancel">Cancel</button>
       <button id = "continue">Continue</button>
     </div>

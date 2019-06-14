@@ -22,6 +22,7 @@ class Parent extends React.Component{
 				<div className="row">
 					<div className="col-2">
 						<div style = {treeStyle}>
+							<h1>Tree Structure</h1>
 						Nostrud eu cupidatat de in legam eram hic constias, enim nam constias sed malis,
 						appellat id quae. Nisi non possumus, de elit esse a doctrina, ne summis
 						cernantur fidelissimae, qui amet expetendis e o deserunt instituendarum et malis
